@@ -19,5 +19,17 @@ public class Class_2_DateType : MonoBehaviour
     public bool isDead = false; //是否死亡;否
     public bool gameOver = true; //是否結束;是
     public int counnt = 7;
+    
+    //整數資料
+    public byte lv = 16;        //byte 型別,範圍 0 ~ 255,大小 8 byte
+    public uint coin = 9999;    //uint 型別,範圍 0 ~ 4***,大小 32 byte
+    public long items = 3000;   //long 型別,範圍 0 ~ 92****，大小 64 byte
 
+    //字串與字元
+    public string playerName = "Neal"; //字串:儲存多ㄍ字元使用雙引號(╹ڡ╹ )
+    public char a = 'a';               //字元:儲存一個字元使用單引號
+
+    //溢位
+    // public sbyte number = 128;
+    
 }
