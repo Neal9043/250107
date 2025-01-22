@@ -12,5 +12,7 @@ public class class5_2_Enumeration : MonoBehaviour
         {
             //定義列舉選項
             spring, Atuumn, Winter
+            
         }
+    
 }
